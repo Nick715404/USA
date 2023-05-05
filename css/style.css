@@ -1,4 +1,5 @@
 ﻿@import './normalise.css';
+@import './_swiper.css';
 
 @font-face {
     font-family: 'Roboto';
@@ -478,6 +479,53 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
+}
+
+/*Accessories________________________________________*/
+
+.accessories {
+  margin-bottom: 110px;
+}
+
+.accessories__title {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 65px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 0px 10px rgba(41, 44, 61, 0.34);
+}
+
+.swiper-slide__item {
+  text-align: center;
+}
+
+.swiper-slide__img {
+  margin-bottom: 10px;
+
+}
+
+.swiper-slide__title {
+  color: red;
+  font-size: 1.3rem;
+  line-height: 18px;
+  padding-bottom: 5px;
+}
+
+.swiper-slide__sale--empty {
+  color: #646464;
 }
 
 /*Footer________________________________________*/
